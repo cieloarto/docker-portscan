@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "port"
+version = "0.1.0"
+description = ""
+authors = ["Masayoshi Uehara <uehara@eln.ne.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8.10"
+openapi = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
